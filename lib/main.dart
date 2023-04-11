@@ -236,11 +236,11 @@ class MyApp extends StatelessWidget {
                 seedColor: palette.darkPen,
                 background: palette.backgroundMain,
               ),
-              textTheme: TextTheme(
-                bodyText2: TextStyle(
-                  color: palette.ink,
-                ),
-              ),
+              // textTheme: TextTheme(
+              //   // bodyText2: TextStyle(
+              //   //   color: palette.ink,
+              //   // ),
+              // ),
             ),
             routeInformationProvider: _router.routeInformationProvider,
             routeInformationParser: _router.routeInformationParser,
